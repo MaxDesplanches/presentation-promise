@@ -1,0 +1,12 @@
+{
+  "name": "presentation-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "case-1.js",
+  "type": "module",
+  "scripts": {
+    "start-case-1": "node case-1.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
