@@ -8,5 +8,8 @@
     "start-case-1": "node case-1.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.29.0"
+  }
 }
