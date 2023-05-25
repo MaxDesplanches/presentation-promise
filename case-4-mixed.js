@@ -1,23 +1,24 @@
-import { promiseExecutionWithDelay } from "./utils.js";
+import { promiseExecutionSuccessWithDelay } from "./utils.js";
 
 // 1
 
-promiseExecutionWithDelay(500);
+promiseExecutionSuccessWithDelay(500);
 
 // 2
 
-promiseExecutionWithDelay(1000).then(() => {
+promiseExecutionSuccessWithDelay(1000).then(() => {
+  promiseExecutionSuccessWithDelay(500);
 }).catch((err) => {
   console.error(err);
 });
 
 // 3
 
-promiseExecutionWithDelay;
+promiseExecutionSuccessWithDelay;
 
 // 4
 
-await promiseExecutionWithDelay(3000);
+await promiseExecutionSuccessWithDelay(3000);
 
 // 4
 

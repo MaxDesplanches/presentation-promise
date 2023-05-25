@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run program case 8",
+      "command": "node case-8-promise-allSettled.js",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+  ]
+}

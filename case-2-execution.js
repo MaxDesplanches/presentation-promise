@@ -1,5 +1,5 @@
-import { promiseExecutionWithDelay } from "./utils.js";
+import { promiseExecutionSuccessWithDelay } from "./utils.js";
 
-promiseExecutionWithDelay(1000);
+promiseExecutionSuccessWithDelay(1000);
 
 console.info('finished');
