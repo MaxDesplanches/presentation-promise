@@ -1,4 +1,4 @@
-import { promiseExecutionFailWithDelay, promiseExecutionSuccessWithDelay } from "./utils.js";
+import { promiseExecutionFailWithDelay } from "./utils.js";
 
 const promise = promiseExecutionFailWithDelay(1000);
 
